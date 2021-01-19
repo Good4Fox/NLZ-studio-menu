@@ -156,16 +156,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: width 0.5s ease-in, height 0.5s ease-in, background-color 0.5s ease-in,
-        color 0.5s ease-in;
+    transition: width 0.3s ease-in, height 0.3s ease-in, background-color 0.3s ease-in,
+        color 0.3s ease-in;
 }
 
 .button-subscrip:hover {
     height: 4.5vh;
     width: 21vh;
     background: #d1452c;
-    transition: width 0.5s ease-in, height 0.5s ease-in, background-color 0.5s ease-in,
-        color 0.5s ease-in;
+    transition: width 0.3s ease-in, height 0.3s ease-in, background-color 0.3s ease-in,
+        color 0.3s ease-in;
 }
 
 .text-subscrip-clear {
@@ -210,14 +210,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: width 0.5s ease-in, height 0.5s ease-in, background-color 0.5s ease-in,
-        color 0.5s ease-in;
+    transition: width 0.3s ease-in, height 0.3s ease-in, background-color 0.3s ease-in,
+        color 0.3s ease-in;
 }
 
 .button-svap:hover {
     height: 11vh;
     width: 31vh;
     background: #00cadb;
-    transition: width 0.5s ease-in, height 0.5s ease-in, background-color 0.5s ease-in,
-        color 0.5s ease-in;
+    transition: width 0.3s ease-in, height 0.3s ease-in, background-color 0.3s ease-in,
+        color 0.3s ease-in;
 }
