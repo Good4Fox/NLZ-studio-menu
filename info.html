@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Меню</title>
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+<script>
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+</script>
+<script>
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+    
+    setTimeout(function(){
+	document.body.classList.add('body_visible');
+}, 200);
+</script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+html {
+    min-height: 100%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url();
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.body_hide {
+    opacity: 0;
+    transition: .9s opacity ease-in-out;
+}
+
+.body_visible {
+    opacity: 1;
+}
+
+p {
+    margin: 1em 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: nowrap;
+}
+
+/* Начало */
+.subscription-text {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 200%;
+    font-family: Bebas Neue;
+    color: #fff;
+}
+
+.text-fx {
+    font-family: Bebas Neue;
+    color: #f4f100;
+}
+
+.home {
+    height: 100vh;
+    background: #333;
+}
+
+.subscription-panel {
+    height: 50vh;
+    background: #ff588c;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription {
+    height: 41vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-prem {
+    height: 40vh;
+    width: 28vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-subscrip {
+    height: 23vh;
+    width: 20vh;
+}
+
+#img-subscrip-1 {
+    background-image: url(/img/test.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img-subscrip-2 {
+    background-image: url(/img/vip.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img-subscrip-3 {
+    background-image: url(/img/mvp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img-subscrip-4 {
+    background-image: url(/img/infinity.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-button {
+    font-size: 130%;
+    font-family: Bebas Neue;
+    color: #fff;
+}
+
+.text-subscrip {
+    font-size: 180%;
+    font-family: Bebas Neue;
+    color: #fff;
+}
+
+.button-subscrip-panel {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-subscrip {
+    height: 4vh;
+    width: 20vh;
+    background: #be3e27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-subscrip-clear {
+    font-family: Bebas Neue;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+#prem1 {
+    background: #480f45;
+}
+
+#prem2 {
+    background: #b41647;
+}
+
+#prem3 {
+    background: #ff6f03;
+}
+
+#prem4 {
+    background: #e7ad00;
+}
+
+.subscription-menu {
+    height: 8vh;
+    background: #333;
+}
+
+.button-mp {
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-svap {
+    margin: 1% 1%;
+    height: 10vh;
+    width: 30vh;
+    background: #00b6c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

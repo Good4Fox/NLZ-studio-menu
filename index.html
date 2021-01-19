@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Меню</title>
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="home">
+        <div class="subscription-menu"></div>
+        <div class="subscription-panel">
+            <div class="subscription-text">
+                <h1 class="text">
+                    <h class="text-fx">АКЦИЯ</h> ПОДПИСКА
+                </h1>
+            </div>
+            <div class="subscription">
+                <div class="subscription-prem" id="prem1">
+                    <h1 class="text">TEST</h1>
+                    <div class="img-subscrip" id="img-subscrip-1"></div>
+                    <h1 class="text-subscrip">КУПИТЬ ЗА <h class="text-subscrip-clear">35</h> 15₽</h1>
+                    <div class="button-subscrip-panel">
+                    <div class="button-subscrip"><h1 class="text-button">ПОДРОБНЕЕ</h1></div></div>
+                </div>
+                <div class="subscription-prem" id="prem2">
+                    <h1 class="text">VIP</h1>
+                    <div class="img-subscrip" id="img-subscrip-2"></div>
+                    <h1 class="text-subscrip">КУПИТЬ ЗА <h class="text-subscrip-clear">69</h> 49₽</h1>
+                    <div class="button-subscrip-panel">
+                    <div class="button-subscrip"><h1 class="text-button">ПОДРОБНЕЕ</h1></div></div>
+                </div>
+                <div class="subscription-prem" id="prem3">
+                    <h1 class="text">MVP</h1>
+                    <div class="img-subscrip" id="img-subscrip-3"></div>
+                    <h1 class="text-subscrip">КУПИТЬ ЗА <h class="text-subscrip-clear">199</h> 149₽</h1>
+                    <div class="button-subscrip-panel">
+                    <div class="button-subscrip"><h1 class="text-button">ПОДРОБНЕЕ</h1></div></div>
+                </div>
+                <div class="subscription-prem" id="prem4">
+                    <h1 class="text">INFINITY</h1>
+                    <div class="img-subscrip" id="img-subscrip-4"></div>
+                    <h1 class="text-subscrip">КУПИТЬ ЗА <h class="text-subscrip-clear">355</h> 219₽</h1>
+                    <div class="button-subscrip-panel">
+                    <div class="button-subscrip"><h1 class="text-button">ПОДРОБНЕЕ</h1></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="button-mp">
+            <div class="button-svap"><h1 class="text">Заказать</h1></div>
+            <div class="button-svap"><h1 class="text">Примеры работ</h1></div>
+            <div class="button-svap"><h1 class="text">отзывы</h1></div>
+            <div class="button-svap"><h1 class="text">О нас</h1></div>
+        </div>
+    </div>
+    
+    <script>
+        // Sends event to client
+        vkBridge.send('VKWebAppInit');
+
+    </script>
+    <script>
+        import React, {
+            useState,
+            useEffect
+        } from 'react';
+        import connect from '@vkontakte/vk-connect';
+        import View from '@vkontakte/vkui/dist/components/View/View';
+        import '@vkontakte/vkui/dist/vkui.css';
+
+        import Home from './panels/Home';
+        import Persik from './panels/Persik';
+
+        const App = () => {
+                const [activePanel, setActivePanel] = useState('home');
+                const [fetchedUser, setUser] = useState(null);
+                const [popout, setPopout] = useState(null);
+
+    </script>
+    <script>
+        document.ondragstart = noselect;
+        document.onselectstart = noselect;
+        document.oncontextmenu = noselect;
+
+        function noselect() {
+            return false;
+        }
+
+    </script>
+    <script>
+        document.ondragstart = noselect;
+        document.onselectstart = noselect;
+        document.oncontextmenu = noselect;
+
+        function noselect() {
+            return false;
+        }
+
+        setTimeout(function() {
+            document.body.classList.add('body_visible');
+        }, 200);
+
+    </script>
+</body>
+
+</html>
