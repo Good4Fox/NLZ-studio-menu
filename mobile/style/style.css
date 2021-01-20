@@ -135,7 +135,7 @@ a {
 }
 
 .text-subscrip {
-    font-size: 180%;
+    font-size: 140%;
     font-family: Bebas Neue;
     color: #fff;
 }
@@ -204,7 +204,7 @@ a {
 .button-svap {
     margin: 1% 1%;
     height: 10vh;
-    width: 30vh;
+    width: 40vh;
     border-radius: 30px;
     background: #00b6c6;
     display: flex;
@@ -216,7 +216,7 @@ a {
 
 .button-svap:hover {
     height: 11vh;
-    width: 31vh;
+    width: 41vh;
     background: #00cadb;
     transition: width 0.3s ease-in, height 0.3s ease-in, background-color 0.3s ease-in,
         color 0.3s ease-in;
