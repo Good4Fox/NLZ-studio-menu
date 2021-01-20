@@ -1,0 +1,223 @@
+html {
+    min-height: 100%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(/img/fons.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.body_hide {
+    opacity: 0;
+    transition: .9s opacity ease-in-out;
+}
+
+.body_visible {
+    opacity: 1;
+}
+
+p {
+    margin: 1em 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: nowrap;
+}
+
+/* Начало */
+
+.subscription-text {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 200%;
+    font-family: Bebas Neue;
+    color: #fff;
+}
+
+.text-fx {
+    font-family: Bebas Neue;
+    color: #f4f100;
+}
+
+.home {
+    height: 100vh;
+}
+
+.subscription-panel {
+    height: 175vh;
+    background: rgba(255, 88, 140, 0.70);
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscription-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-prem {
+    margin: 1% 0%;
+    height: 40vh;
+    width: 28vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-subscrip {
+    height: 23vh;
+    width: 20vh;
+}
+
+#img-subscrip-1 {
+    background-image: url(/img/test.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img-subscrip-2 {
+    background-image: url(/img/vip.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img-subscrip-3 {
+    background-image: url(/img/mvp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img-subscrip-4 {
+    background-image: url(/img/infinity.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-button {
+    font-size: 150%;
+    font-family: Bebas Neue;
+    color: #fff;
+}
+
+.text-subscrip {
+    font-size: 180%;
+    font-family: Bebas Neue;
+    color: #fff;
+}
+
+.button-subscrip-panel {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-subscrip {
+    height: 4vh;
+    width: 20vh;
+    background: #be3e27;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.3s ease-in, height 0.3s ease-in, background-color 0.3s ease-in,
+        color 0.3s ease-in;
+}
+
+.button-subscrip:hover {
+    height: 4.5vh;
+    width: 21vh;
+    background: #d1452c;
+    transition: width 0.3s ease-in, height 0.3s ease-in, background-color 0.3s ease-in,
+        color 0.3s ease-in;
+}
+
+.text-subscrip-clear {
+    font-family: Bebas Neue;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+#prem1 {
+    background: rgba(72, 15, 69, 0.9);
+}
+
+#prem2 {
+    background: rgba(180, 22, 71, 0.9);
+}
+
+#prem3 {
+    background: rgba(255, 111, 3, 0.9);
+}
+
+#prem4 {
+    background: rgba(231, 173, 0, 0.9);
+}
+
+.subscription-menu {
+    height: 8vh;
+}
+
+.button-mp {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-svap {
+    margin: 1% 1%;
+    height: 10vh;
+    width: 30vh;
+    border-radius: 30px;
+    background: #00b6c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.3s ease-in, height 0.3s ease-in, background-color 0.3s ease-in,
+        color 0.3s ease-in;
+}
+
+.button-svap:hover {
+    height: 11vh;
+    width: 31vh;
+    background: #00cadb;
+    transition: width 0.3s ease-in, height 0.3s ease-in, background-color 0.3s ease-in,
+        color 0.3s ease-in;
+}
