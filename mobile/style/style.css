@@ -9,7 +9,7 @@ html {
 
 body {
     background-attachment: fixed;
-    background-image: url(/img/fons.jpg);
+    background-image: url(https://good4lis.github.io/NLZ-studio-menu/mobile/img/fons.jpg);
     background-size: 100% 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,25 +105,25 @@ a {
 }
 
 #img-subscrip-1 {
-    background-image: url(/img/test.png);
+    background-image: url(https://good4lis.github.io/NLZ-studio-menu/mobile/img/test.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #img-subscrip-2 {
-    background-image: url(/img/vip.png);
+    background-image: url(https://good4lis.github.io/NLZ-studio-menu/mobile/img/vip.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #img-subscrip-3 {
-    background-image: url(/img/mvp.png);
+    background-image: url(https://good4lis.github.io/NLZ-studio-menu/mobile/img/mvp.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #img-subscrip-4 {
-    background-image: url(/img/infinity.png);
+    background-image: url(https://good4lis.github.io/NLZ-studio-menu/mobile/img/infinity.png);
     background-repeat: no-repeat;
     background-position: center;
 }
